@@ -1,1 +1,56 @@
 /* All styles for your header Components live here */
+.header-container{
+    display: flex;
+    flex-wrap: wrap;
+    margin: 0 auto;
+    width:80%;
+    border:1px solid red;
+    padding:10px 0px;
+}
+
+.header-body{
+    display: flex;
+    justify-content: flex-start;
+    width:92%;
+    flex-wrap: wrap;
+}
+
+.thumbnail{
+    display: flex;
+    justify-content: flex-start;
+    align-content: flex-end;
+    width:8%;
+    margin-top:5px;
+
+}
+.thumbnail img{
+    width: 75px;
+    height: 75px;
+}
+
+.header-title{
+    display: flex;
+}
+.header-title h1{
+    font-size:1.5rem;
+    margin-right:5px;
+}
+
+.header-title .handle{
+    font-size: 1.2rem;
+    color:grey;
+}
+.header-title .midpoint{
+    font-size: 1.2rem;
+    color:grey;
+}
+.header-title .date{
+    font-size: 1.2rem;
+    color:grey;
+}
+
+.header-content{
+    display: flex;
+    margin-top:-20px;
+
+}
