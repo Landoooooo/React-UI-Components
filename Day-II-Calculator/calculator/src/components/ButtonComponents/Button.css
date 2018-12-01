@@ -1,0 +1,18 @@
+button{
+    display: flex;
+    justify-content: center;
+    font-size: 3rem;
+}
+.actionButtonStyle{
+    display: flex;
+    width: 75%;
+}
+.numberButtonStyle{
+    display: flex;
+    width: 25%;
+}
+button.numberButtonStyle.redStyle{
+    display: flex;
+    background: red;
+    color:white;
+}
