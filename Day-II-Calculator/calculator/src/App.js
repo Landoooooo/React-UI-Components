@@ -9,21 +9,21 @@ const App = () => {
     <div className="calculator-app">
       <CalculatorDisplay text="0" />
       <ActionButton className="actionButtonStyle" text="Clear"/>
-      <NumberButton className="numberButtonStyle" xtraStyle="redStyle" text="&divide;"/>
-      <NumberButton className="numberButtonStyle" text="7" />
-      <NumberButton className="numberButtonStyle" text="8" />
-      <NumberButton className="numberButtonStyle" text="9" />
-      <NumberButton className="numberButtonStyle" xtraStyle="redStyle" text="&times;" />
-      <NumberButton className="numberButtonStyle" text="4" />
-      <NumberButton className="numberButtonStyle" text="5" />
-      <NumberButton className="numberButtonStyle" text="6" />
-      <NumberButton className="numberButtonStyle" xtraStyle="redStyle" text="&minus;" />
-      <NumberButton className="numberButtonStyle" text="1" />
-      <NumberButton className="numberButtonStyle" text="2" />
-      <NumberButton className="numberButtonStyle" text="3" />
-      <NumberButton className="numberButtonStyle" xtraStyle="redStyle" text="&#43;" />
-      <ActionButton className="numberButtonStyle" text="0" />
-      <NumberButton className="numberButtonStyle" xtraStyle="redStyle" text="&#61;"/>
+      <NumberButton extraStyle="redStyle" text="&divide;"/>
+      <NumberButton  text="7" />
+      <NumberButton  text="8" />
+      <NumberButton  text="9" />
+      <NumberButton extraStyle="redStyle" text="&times;" />
+      <NumberButton  text="4" />
+      <NumberButton  text="5" />
+      <NumberButton  text="6" />
+      <NumberButton extraStyle="redStyle" text="&minus;" />
+      <NumberButton  text="1" />
+      <NumberButton  text="2" />
+      <NumberButton  text="3" />
+      <NumberButton extraStyle="redStyle" text="&#43;" />
+      <ActionButton  text="0" />
+      <NumberButton extraStyle="redStyle" text="&#61;"/>
     </div>
   );
 };

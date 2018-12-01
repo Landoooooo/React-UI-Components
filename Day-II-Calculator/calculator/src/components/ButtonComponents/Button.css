@@ -1,7 +1,7 @@
 button{
     display: flex;
     justify-content: center;
-    font-size: 3rem;
+    font-size: 2.5rem;
 }
 .actionButtonStyle{
     display: flex;
@@ -11,8 +11,8 @@ button{
     display: flex;
     width: 25%;
 }
-button.numberButtonStyle.redStyle{
+.redStyle{
     display: flex;
-    background: red;
+    background:#800020;
     color:white;
 }
