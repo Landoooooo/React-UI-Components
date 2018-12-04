@@ -22,7 +22,8 @@ class App extends React.Component {
   }
 
   equal = () => {
-    this.setState({display: math.eval(this.state.display)})
+    let total = this.state.display;
+    this.setState({display: math.eval(total)})
   }
 
   clear = () => {
